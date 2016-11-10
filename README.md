@@ -387,7 +387,7 @@ alert大概是我们在调试过程中用的特别多的一个函数了。它和
 
 
 当然了，symbol类型不太相同
-
+	var mySymbol = Symbol('mySymbol');
 	var a = {
 	  [mySymbol]: 'symbol',
 	  mySymbol: 'string'
